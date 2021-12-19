@@ -1,0 +1,233 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    max-width: 1440px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 667px;
+    position: relative;
+    margin: auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    height: 95%;
+}
+
+#components {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#component_img {
+    background-image: url(/images/illustration-hero.svg);
+    background-size: cover;
+    width: 100%;
+    max-width: 445px;
+    height: 33%;
+}
+
+#article {
+    background-color: #fff;
+    height: 67%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#order_summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2 {
+    margin: 25px 0 15px;
+    font-size: 160%;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+}
+
+#plan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 1.3em;
+    border-radius: 5px;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: 0 10px 15px 0 hsl(0deg 0% 85%);
+    margin-top: 15px;
+}
+
+#option_1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4.72222222%;
+}
+
+h5 {
+    font-size: 95%;
+    font-weight: 900;
+    margin-bottom: 6px;
+    color: hsl(223, 47%, 23%);
+}
+
+#option_1 span {
+    font-size:112%;
+    color: hsl(224, 23%, 55%);
+
+}
+
+#plan > a {
+    font-weight: 700;
+    margin-left: 26.3888888%;
+    color: hsl(245, 75%, 52%);
+}
+
+#plan > a:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+#payment_plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 81.8181818%;
+}
+
+#payment_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px 0 hsl(245, 75%, 75%);
+    background-color: hsl(245, 75%, 52%);
+}
+
+#payment_1 > a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#payment_1:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+#payment_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#payment_2 > a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+}
+
+#payment_2 > a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+/******* Mobile Phones *******/
+@media (max-width: 414px) {
+    main {
+        width: 400px;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    #component_img {
+        height: 27.9989704487%;
+    }
+
+    #article {
+        height: 72.0010295513%;
+    }
+
+    h2 {
+        margin: 30px 0 30px 0;
+        font-size: 150%;
+    }
+
+    #payment_plan {
+        width: 88.8888888889%;
+    }
+
+    #plan {
+        margin-top: 25px;
+    }
+
+    #plan > img {
+        margin: 0;
+    }
+
+    #option_1 {
+        margin-left: 6.25%;
+    }
+
+    #plan > a {
+        margin-left: 15.625%;
+    }
+
+    #payment_1 {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    main {
+        
+    }
+}
+
